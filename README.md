@@ -1,8 +1,8 @@
-# PROYECTO BASE: [Nombre de la Aplicación] - Software Factory SENA
+# PROYECTO BASE: Apropiación del Conocimiento - Software Factory SENA
 
 **Metodología:** *"Del Requerimiento al Producto"*
 
-Este repositorio constituye la base técnica y administrativa para el desarrollo del proyecto. No es solo un contenedor de código, es una simulación de un entorno profesional donde se aplican estándares de calidad, gestión ágil y flujos de trabajo colaborativos reales.
+Este repositorio constituye la base técnica y administrativa para el desarrollo del proyecto. No es solo un contenedor de código, es una simulación de un entorno profesional donde@ se aplican estándares de calidad, gestión ágil y flujos de trabajo colaborativos reales.
 
 ---
 
@@ -58,8 +58,18 @@ Antes de escribir la primera línea de código o ejecutar un comando, es obligat
   - Reporte de avances  
   - Solicitud de revisión técnica  
 
+
 ---
 
+### Desarrollador (Albañil)
+
+- **Responsabilidad:** Construcción de módulos y lógica  
+- **Tareas en GitHub:**
+  - Desarrollo en ramas `feat/`  
+  - Reporte de avances  
+  - Solicitud de revisión técnica  
+
+---
 ### El "Por qué"
 
 La división de roles evita duplicidad de tareas y establece una jerarquía clara de responsabilidad (segregación de funciones), esencial en equipos de alto rendimiento.
