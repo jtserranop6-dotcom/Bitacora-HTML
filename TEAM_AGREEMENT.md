@@ -5,7 +5,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 ## 1. Miembros del Equipo y Roles
 | Nombre | Rol | Usuario de GitHub |
 | :--- | :--- | :--- |
-| [Nombre del Aprendiz 1] | Líder (Arquitecto) | `@usuario1` |
+| [Jessica Tatiana Serrano Perez] | Líder (Arquitecto) | `jtserranop6-dotcom` |
 |Juan Diego Cristancho Muñoz| Desarrollador | `@Cristancho784` |
 | [Nombre del Aprendiz 3] | Desarrollador | `@usuario3` |
 
