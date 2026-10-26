@@ -2,82 +2,105 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Reglas - Bitácora ADSO</title>
+    <title>Reglas de la bitácora</title>
 </head>
 <body>
 
-<header>
-    <h1>Plantilla control de trabaja diario ADSO</h1>
-    <p>Versión: 01</p>
-</header>
+    <header>
+        <h1>Reglas de la bitácora</h1>
+        <p>Normas para registrar correctamente las actividades diarias.</p>
 
-<nav>
-    <a href="informacion.html">Información</a> |
-    <a href="reglas.html">Reglas</a> |
-    <a href="trazabilidad.html">Trazabilidad</a>
-</nav>
+        <nav>
+            <a href="informacion.html">Información</a> |
+            <a href="reglas.html">Reglas</a> |
+            <a href="trazabilidad.html">Trazabilidad</a>
+        </nav>
+    </header>
 
-<hr>
+    <main>
+        <article>
+            <h2>Reglas de registro</h2>
 
-<main>
-    <h2>Reglas</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>N.º</th>
+                        <th>Regla</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Responsabilidad Única (SRP)</td>
+                        <td>Cada fila documenta un solo evento, tarea o impedimento indivisible. Si realizó tres actividades en el día, registre tres filas independientes.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Cero Adjetivos Subjetivos</td>
+                        <td>Prohibido escribir "estuvo chévere", "fue difícil", "avanzamos bien". Redacte únicamente los hechos técnicos verificables.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Inmutabilidad</td>
+                        <td>Si un registro histórico contiene un error o cambio, no lo borre ni sobrescriba. Cree un nuevo registro con fecha actual indicando: "Corrección/Ajuste al registro ID [X]".</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Impedimentos</td>
+                        <td>Si no presentó dificultades, escriba expresamente: "Sin impedimentos operativos".</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
 
-    <h3>1. Responsabilidad Única (SRP)</h3>
-    <p>Cada fila documenta un solo evento, tarea o impedimento
-    indivisible. Si realizó tres actividades en el día,
-    registre tres filas independientes.</p>
+        <article>
+            <h2>Guía de llenado por columna</h2>
 
-    <h3>2. Cero Adjetivos Subjetivos</h3>
-    <p>Prohibido escribir "estuvo chévere", "fue difícil",
-    "avanzamos bien". Redacte únicamente los hechos técnicos
-    verificables.</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Columna</th>
+                        <th>Instrucción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ID</td>
+                        <td>Número consecutivo único para cada actividad o fila (ej. 001, 002).</td>
+                    </tr>
+                    <tr>
+                        <td>Timestamp (YYYY-MM-DD HH:MM)</td>
+                        <td>Fecha y hora exacta en la que se registra o ejecuta la actividad (formato AAAA-MM-DD HH:MM).</td>
+                    </tr>
+                    <tr>
+                        <td>Autoría (Responsable)</td>
+                        <td>Nombre o iniciales del aprendiz responsable de ejecutar la actividad.</td>
+                    </tr>
+                    <tr>
+                        <td>Objeto Técnico (Actividad y Alcance)</td>
+                        <td>Descripción técnica objetiva, verificable y concreta de lo ejecutado y su alcance real.</td>
+                    </tr>
+                    <tr>
+                        <td>Evidencia de Ejecución (Entregable / Enlace)</td>
+                        <td>URL del commit, enlace al Pull Request, captura de pantalla o documento entregable.</td>
+                    </tr>
+                    <tr>
+                        <td>Impedimentos / Blockers</td>
+                        <td>Descripción técnica del error o impedimento. Si no hubo problemas, escribir: "Sin impedimentos operativos".</td>
+                    </tr>
+                    <tr>
+                        <td>Plan de Acción (Mitigación / Próxima Tarea)</td>
+                        <td>Acción correctiva tomada, próxima tarea programada o paso para desbloquear la actividad.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </main>
 
-    <h3>3. Inmutabilidad</h3>
-    <p>Si un registro histórico contiene un error o cambio,
-    no lo borre ni sobrescriba. Cree un nuevo registro con
-    fecha actual indicando: "Corrección/Ajuste al registro ID [X]".</p>
-
-    <h3>4. Impedimentos</h3>
-    <p>Si no presentó dificultades, escriba expresamente:
-    "Sin impedimentos operativos".</p>
-
-    <h2>GUÍA DE LLENADO POR COLUMNA</h2>
-
-    <h3>ID</h3>
-    <p>Número consecutivo único para cada actividad o fila
-    (ej. 001 002).</p>
-
-    <h3>Timestamp (YYYY-MM-DD HH:MM)</h3>
-    <p>Fecha y hora exacta en la que se registra o ejecuta
-    la actividad (formato AAAA-MM-DD HH:MM).</p>
-
-    <h3>Autoría (Responsable)</h3>
-    <p>Nombre o iniciales del aprendiz responsable de ejecutar
-    la actividad.</p>
-
-    <h3>Objeto Técnico (Actividad y Alcance)</h3>
-    <p>Descripción técnica objetiva verificable y concreta
-    de lo ejecutado y su alcance real.</p>
-
-    <h3>Evidencia de Ejecución (Entregable / Enlace)</h3>
-    <p>URL del commit enlace al Pull Request captura de pantalla
-    o documento entregable.</p>
-
-    <h3>Impedimentos / Blockers
-    (Qué ejecutó qué falló qué esperaba)</h3>
-    <p>Descripción técnica del error o impedimento. Si no hubo
-    problemas escribir: "Sin impedimentos operativos".</p>
-
-    <h3>Plan de Acción (Mitigación / Próxima Tarea)</h3>
-    <p>Acción correctiva tomada próxima tarea programada o paso
-    para desbloquear la actividad.</p>
-</main>
-
-<hr>
-
-<footer>
-    <p>Plantilla control de trabaja diario ADSO - Versión: 01</p>
-</footer>
+    <footer>
+        <p>Reglas para el diligenciamiento de la bitácora ADSO.</p>
+    </footer>
 
 </body>
 </html>
