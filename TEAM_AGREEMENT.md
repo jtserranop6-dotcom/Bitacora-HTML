@@ -7,7 +7,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 | :--- | :--- | :--- |
 | [Jessica Tatiana Serrano Perez] | Líder (Arquitecto) | `jtserranop6-dotcom` |
 |Juan Diego Cristancho Muñoz| Desarrollador | `@Cristancho784` |
-| [Nombre del Aprendiz 3] | Desarrollador | `@usuario3` |
+| [Juan David Leon Morales] | Desarrollador | `davidleon1207` |
 
 ## 2. Canales de Comunicación
 Para mantener el orden y separar lo profesional de lo personal, usaremos los siguientes canales:
